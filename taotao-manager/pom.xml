@@ -14,7 +14,15 @@
         <module>taotao-manager-pojo</module>
         <module>taotao-manager-service</module>
         <module>taotao-manager-web</module>
+        <module>taotao-manager-mapper</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.taotao</groupId>
+            <artifactId>taotao-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     <build>
         <plugins>
             <!-- 配置Tomcat插件 -->
