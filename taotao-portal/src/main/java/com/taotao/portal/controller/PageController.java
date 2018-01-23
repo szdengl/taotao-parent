@@ -23,8 +23,4 @@ public class PageController {
         return "index";
     }
 
-    @RequestMapping("/register")
-    public String showRegister() {
-        return "register";
-    }
 }
